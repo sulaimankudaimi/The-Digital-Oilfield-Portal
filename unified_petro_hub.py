@@ -14,14 +14,14 @@ st.markdown("""
     }
     
     .stApp {
-        background-color: #ffffff;
+        background-color: #000000;
     }
 
     /* هيدر نيون مشع على خلفية سوداء */
     .hero-section {
         padding: 60px 20px;
         text-align: center;
-        background-color: #000000;
+        background-color: white;
         border-bottom: 1px solid #00f2ff;
         margin-bottom: 50px;
     }
