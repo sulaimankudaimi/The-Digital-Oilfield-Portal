@@ -2,7 +2,22 @@ import streamlit as st
 
 # 1. إعدادات الصفحة
 st.set_page_config(page_title="Eng. Sulaiman | Digital Oilfield Portal", layout="wide")
-
+# كود تعديل العنوان فقط لجعله فائق الوضوح
+st.markdown("""
+    <style>
+    .main-title {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 5rem !important; /* حجم ضخم */
+        font-weight: 800 !important;
+        color: #FFFFFF !important; /* أبيض ناصع لأقصى وضوح */
+        letter-spacing: 4px !important;
+        text-shadow: 0 0 15px #00f2ff, 0 0 30px #00f2ff !important; /* توهج نيون سيان خلف النص */
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 # تطبيق لغة التصميم (الأسود الملكي + النصوص المضيئة)
 st.markdown("""
     <style>
@@ -10,7 +25,7 @@ st.markdown("""
     
     /* الخلفية بالأسود الصافي */
     .main { 
-        background-color: #ff0000; 
+        background-color: #000000 !important; 
     }
     
     .stApp {
@@ -21,7 +36,7 @@ st.markdown("""
     .hero-section {
         padding: 60px 20px;
         text-align: center;
-        background-color: white;
+        background-color: #000000;
         border-bottom: 1px solid #00f2ff;
         margin-bottom: 50px;
     }
@@ -32,7 +47,7 @@ st.markdown("""
         font-weight: 800;
         color: #00f2ff; /* نيون سيان */
         letter-spacing: 3px;
-        text-shadow: 0 0 20px #000000;
+        text-shadow: 0 0 20px #00f2ff;
         margin: 0;
         text-transform: uppercase;
     }
