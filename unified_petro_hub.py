@@ -32,7 +32,7 @@ st.markdown("""
         font-weight: 800;
         color: #00f2ff; /* نيون سيان */
         letter-spacing: 3px;
-        text-shadow: 0 0 20px #00f2ff;
+        text-shadow: 0 0 20px #000000;
         margin: 0;
         text-transform: uppercase;
     }
