@@ -10,7 +10,7 @@ st.markdown("""
     
     /* الخلفية بالأسود الصافي */
     .main { 
-        background-color: white; 
+        background-color: #ff0000; 
     }
     
     .stApp {
