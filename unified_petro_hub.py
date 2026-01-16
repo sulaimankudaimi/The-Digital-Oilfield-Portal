@@ -14,7 +14,7 @@ st.markdown("""
     }
     
     .stApp {
-        background-color: #000000;
+        background-color: white;
     }
 
     /* هيدر نيون مشع على خلفية سوداء */
